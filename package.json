@@ -1,0 +1,9 @@
+{
+  "name": "shailendra-portfolio",
+  "version": "1.0.0",
+  "description": "Dynamic portfolio website for Shailendra Kumar",
+  "scripts": {
+    "start": "npx serve . -p 3000",
+    "dev": "npx serve . -p 3000"
+  }
+}

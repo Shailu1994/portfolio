@@ -1,0 +1,28 @@
+{
+  "name": "Shailendra Kumar",
+  "title": "Senior Software Engineer & Team Lead",
+  "tagline": "Building scalable SaaS platforms with PHP, Symfony & Laravel",
+  "location": "Jaipur, Rajasthan, India",
+  "phone": "+91 7976549573",
+  "email": "shailendra1994@hotmail.com",
+  "linkedin": "https://www.linkedin.com/in/shailendra33",
+  "photo": "assets/photo.png",
+  "resumePdf": "",
+  "summary": "Senior PHP Engineer & Team Lead with 7+ years building and scaling web applications (Symfony, Laravel, Yii2) for US-based clients. Led delivery for teams of up to 6 engineers across full Agile SDLC; cut API review cycles by 40% and improved system performance by 30% through caching and query optimization. Skilled at pairing hands-on architecture work with AI-assisted development (Cursor, GitHub Copilot) to speed up delivery without sacrificing code quality.",
+  "stats": [
+    { "value": "7+", "label": "Years Experience" },
+    { "value": "15+", "label": "Enterprise Projects" },
+    { "value": "6", "label": "Max Team Size Led" },
+    { "value": "30%", "label": "Performance Gains" }
+  ],
+  "languages": ["English", "Hindi"],
+  "nav": [
+    { "id": "home", "label": "Home" },
+    { "id": "about", "label": "About" },
+    { "id": "skills", "label": "Skills" },
+    { "id": "experience", "label": "Experience" },
+    { "id": "projects", "label": "Projects" },
+    { "id": "education", "label": "Education" },
+    { "id": "contact", "label": "Contact" }
+  ]
+}

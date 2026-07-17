@@ -1,0 +1,83 @@
+{
+  "heroSkills": [
+    "Core PHP",
+    "Symfony",
+    "Laravel",
+    "MySQL",
+    "AWS",
+    "Redis",
+    "Docker",
+    "Vue.js"
+  ],
+  "categories": [
+    {
+      "name": "Backend & Architecture",
+      "icon": "server",
+      "skills": [
+        "PHP",
+        "Symfony",
+        "Laravel",
+        "Lumen",
+        "Yii2",
+        "MySQL",
+        "Redis",
+        "RESTful API Design",
+        "Doctrine ORM",
+        "Microservices",
+        "Domain-Driven Design",
+        "Event-Driven Design"
+      ]
+    },
+    {
+      "name": "Frontend & Mobile",
+      "icon": "layout",
+      "skills": [
+        "Vue.js",
+        "JavaScript (ES6+)",
+        "React",
+        "Angular",
+        "HTML5/CSS3",
+        "Java (Android)"
+      ]
+    },
+    {
+      "name": "DevOps & Quality",
+      "icon": "cloud",
+      "skills": [
+        "AWS (EC2, S3, RDS, SQS, Lambda, Rekognition)",
+        "Docker",
+        "CI/CD",
+        "GitFlow",
+        "SonarQube",
+        "PHPUnit",
+        "Swagger"
+      ]
+    },
+    {
+      "name": "Integrations & Tools",
+      "icon": "plug",
+      "skills": [
+        "Razorpay",
+        "Paytm",
+        "ImageKit",
+        "Pusher",
+        "JWT/OAuth",
+        "RBAC",
+        "Jira",
+        "Agile/Scrum",
+        "Git"
+      ]
+    },
+    {
+      "name": "AI-Assisted Development",
+      "icon": "sparkles",
+      "skills": [
+        "Cursor AI",
+        "GitHub Copilot",
+        "Prompt Engineering",
+        "LLM-based Refactoring",
+        "AI Documentation Automation"
+      ]
+    }
+  ]
+}

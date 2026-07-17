@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "id": "growexx",
+      "company": "GrowBy Exx Services Pvt. Ltd.",
+      "role": "Senior Software Engineer / Team Lead",
+      "period": "Jan 2024 – Feb 2026",
+      "location": "Jaipur, India",
+      "type": "Full-time",
+      "highlights": [
+        "Led a team of 6 developers across full SDLC — sprint planning, architecture decisions, and code reviews for enterprise applications built in Symfony, Laravel, and Lumen.",
+        "Built high-performance microservices and REST APIs, improving system scalability for production workloads.",
+        "Improved API response times by optimizing Redis caching, database queries, and indexing strategies.",
+        "Reduced manual PR review time by 40% by introducing Cursor AI and GitHub Copilot into the review workflow, while maintaining strict PSR-12 compliance.",
+        "Worked with US-based clients to translate business requirements into technical solutions and architecture decisions.",
+        "Mentored junior developers on clean architecture, GitFlow, and coding standards."
+      ],
+      "techStack": ["Symfony", "Laravel", "Lumen", "MySQL", "Redis", "AWS", "Docker", "CI/CD", "PHPUnit", "SonarQube", "Swagger", "Jira"]
+    },
+    {
+      "id": "qdegrees-senior",
+      "company": "QDegrees Services Pvt. Ltd.",
+      "role": "Senior Software Developer / Team Lead",
+      "period": "Jan 2020 – Dec 2023",
+      "location": "Jaipur, India",
+      "type": "Full-time",
+      "highlights": [
+        "Led a team of 5–6 developers across full SDLC for enterprise applications built in Laravel and Yii2.",
+        "Developed multiple enterprise applications including CRM, audit, HRMS, and survey systems for internal and client use.",
+        "Improved system performance by 30% through query optimization and caching strategies.",
+        "Built and maintained RESTful APIs powering integrations between internal systems and third-party services.",
+        "Implemented queues, jobs, events, and scheduled tasks in Laravel to automate recurring business processes.",
+        "Designed scalable database structures and optimized complex queries for high-traffic modules.",
+        "Partnered with frontend teams using Vue.js to deliver seamless API consumption end-to-end."
+      ],
+      "techStack": ["Laravel", "Vue.js", "Yii2", "MySQL", "AWS", "RESTful API", "Git"]
+    },
+    {
+      "id": "hci",
+      "company": "HCI Infohub Pvt. Ltd.",
+      "role": "Junior Software Developer",
+      "period": "Jun 2018 – Nov 2019",
+      "location": "Jaipur, India",
+      "type": "Full-time",
+      "highlights": [
+        "Built and maintained core PHP applications and Android apps for internal business use.",
+        "Implemented MySQL-driven features that improved data management accuracy.",
+        "Developed e-commerce and job portal platforms with payment gateway integrations."
+      ],
+      "techStack": ["Core PHP", "MySQL", "Java (Android)", "JavaScript", "REST APIs"]
+    }
+  ]
+}

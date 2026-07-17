@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shailendra Kumar — Senior Software Engineer & Team Lead specializing in PHP, Symfony, Laravel, and scalable SaaS platforms.">
+  <meta name="author" content="Shailendra Kumar">
+  <meta name="theme-color" content="#0f172a">
+  <title>Shailendra Kumar | Senior Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>SK</text></svg>">
+</head>
+<body>
+  <div class="noise-overlay" aria-hidden="true"></div>
+  <div class="gradient-orb gradient-orb--1" aria-hidden="true"></div>
+  <div class="gradient-orb gradient-orb--2" aria-hidden="true"></div>
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav__logo">
+        <span class="nav__logo-mark">SK</span>
+        <span class="nav__logo-text">Shailendra</span>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks"></ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="hero__badge">
+            <span class="pulse-dot"></span>
+            Available for opportunities
+          </p>
+          <h1 class="hero__title">
+            Hi, I'm <span class="gradient-text" id="heroName">Shailendra Kumar</span>
+          </h1>
+          <p class="hero__role" id="heroTitle">Senior Software Engineer & Team Lead</p>
+          <p class="hero__tagline" id="heroTagline"></p>
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary">View Projects</a>
+            <a href="#contact" class="btn btn--outline">Get In Touch</a>
+          </div>
+          <div class="hero__stats" id="heroStats"></div>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__photo-frame">
+            <div class="hero__photo-ring"></div>
+            <img src="" alt="Shailendra Kumar" class="hero__photo" id="heroPhoto" width="400" height="400">
+          </div>
+          <div class="hero__floating-skills" id="heroFloatingSkills" aria-hidden="true"></div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-indicator" aria-label="Scroll to about">
+        <span></span>
+      </a>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">About Me</span>
+          <h2 class="section-title">Crafting scalable solutions<br>for enterprise clients</h2>
+        </div>
+        <div class="about__grid">
+          <div class="about__text">
+            <p class="about__summary" id="aboutSummary"></p>
+            <div class="about__meta" id="aboutMeta"></div>
+          </div>
+          <div class="about__ai" id="aiSection"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Expertise</span>
+          <h2 class="section-title">Skills & Technologies</h2>
+        </div>
+        <div class="skills__grid" id="skillsGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Career</span>
+          <h2 class="section-title">Professional Experience</h2>
+        </div>
+        <div class="timeline" id="experienceTimeline"></div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Portfolio</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-desc">Enterprise SaaS platforms, CRM systems, and scalable web applications delivered for global clients.</p>
+        </div>
+        <div class="projects__filter" id="projectFilter">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="featured">Featured</button>
+        </div>
+        <div class="projects__grid" id="projectsGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Background</span>
+          <h2 class="section-title">Education & Certifications</h2>
+        </div>
+        <div class="education__grid" id="educationGrid"></div>
+      </div>
+    </section>
+
+    <section class="section section--contact" id="contact">
+      <div class="container">
+        <div class="contact__card">
+          <div class="contact__content">
+            <span class="section-label">Contact</span>
+            <h2 class="section-title">Let's build something great together</h2>
+            <p class="contact__desc">Open to senior engineering roles, team lead positions, and consulting opportunities.</p>
+            <div class="contact__links" id="contactLinks"></div>
+          </div>
+          <div class="contact__visual">
+            <div class="contact__code">
+              <pre><code><span class="code-keyword">const</span> engineer = {
+  <span class="code-prop">name</span>: <span class="code-string">"Shailendra Kumar"</span>,
+  <span class="code-prop">role</span>: <span class="code-string">"Senior Software Engineer"</span>,
+  <span class="code-prop">stack</span>: [<span class="code-string">"PHP"</span>, <span class="code-string">"Symfony"</span>, <span class="code-string">"Laravel"</span>],
+  <span class="code-prop">available</span>: <span class="code-bool">true</span>
+};</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; <span id="footerYear"></span> <span id="footerName">Shailendra Kumar</span>. Built with passion.</p>
+    
+    </div>
+  </footer>
+
+  <div class="modal" id="projectModal" aria-hidden="true" role="dialog">
+    <div class="modal__backdrop" id="modalBackdrop"></div>
+    <div class="modal__content">
+      <button class="modal__close" id="modalClose" aria-label="Close modal">&times;</button>
+      <div class="modal__body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="js/app.js" type="module"></script>
+</body>
+</html>

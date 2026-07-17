@@ -1,0 +1,177 @@
+{
+  "items": [
+    {
+      "id": "park-street",
+      "title": "Park Street — Wine & Spirits Distribution Platform",
+      "subtitle": "Beverage Inventory Management System",
+      "company": "GrowExx",
+      "client": "US-based Beverage Distribution Company",
+      "period": "Jan 2024 – Feb 2026",
+      "role": "Senior Software Engineer / Team Lead | Pricing Module Owner",
+      "featured": true,
+      "description": "Developed and maintained a large-scale SaaS Beverage Inventory Management Platform for the wine and spirits distribution industry, supporting inventory management, pricing, procurement, and distribution operations. Led a team of 5 developers while taking full ownership of the Pricing Module.",
+      "contributions": [
+        "Designed and developed scalable microservices and high-performance REST APIs using Symfony and Laravel Lumen.",
+        "Architected and maintained the Pricing Module, handling complex pricing rules, promotions, discounts, and customer-specific pricing strategies.",
+        "Implemented asynchronous processing using Redis, AWS SQS, and AWS Lambda to improve system scalability and performance.",
+        "Optimized database queries, API performance, and application architecture to support high-volume transactions and enterprise-scale workloads.",
+        "Integrated third-party services and collaborated with QA, Product, and DevOps teams to ensure reliable deployments and production stability.",
+        "Led sprint planning, code reviews, technical design discussions, mentoring, and production releases while driving engineering best practices."
+      ],
+      "skills": ["Symfony", "Laravel Lumen", "MySQL", "Redis", "AWS SQS", "AWS Lambda", "REST APIs", "Microservices", "Angular", "Docker", "CI/CD", "PHPUnit", "SonarQube"],
+      "tags": ["SaaS", "Microservices", "US Client", "Team Lead"]
+    },
+    {
+      "id": "quality-audit",
+      "title": "Quality Audit Tool",
+      "subtitle": "Multi-tenant SaaS Quality Audit Management Platform",
+      "company": "QDegrees Services",
+      "client": "Airtel, VI, Porter, Hotstar, TATA AIA, Mama Money & more",
+      "period": "Jan 2020 – Dec 2023",
+      "role": "Sole Developer (2 Years) → Team Lead (2 Years)",
+      "featured": true,
+      "description": "Developed and scaled a multi-tenant SaaS Quality Audit Management Platform used by 2,000+ auditors for conducting field audits, inspections, surveys, and compliance assessments across multiple enterprise clients.",
+      "contributions": [
+        "Designed and developed scalable modules for audit management, survey forms, task assignment, workflow automation, reporting, dashboards, notifications, and RBAC.",
+        "Built secure REST APIs and integrated third-party services for seamless data exchange.",
+        "Optimized MySQL queries, application performance, and backend architecture to support high-volume concurrent users.",
+        "Implemented queue-based background jobs, caching, and automated scheduled tasks to improve system reliability and performance.",
+        "Led sprint planning, code reviews, mentoring, production deployments, and client support while ensuring code quality and timely delivery."
+      ],
+      "skills": ["Laravel", "Vue.js", "MySQL", "AWS", "REST APIs", "RBAC", "Queue Systems", "Email/SMS Gateways", "Multi-tenant SaaS"],
+      "tags": ["SaaS", "Multi-tenant", "Team Lead", "Enterprise"]
+    },
+    {
+      "id": "nps-survey",
+      "title": "NPS Survey Tool",
+      "subtitle": "Feedback Analytics Platform",
+      "company": "QDegrees Services",
+      "client": "Enterprise Clients",
+      "period": "Apr 2021 – Mar 2023",
+      "role": "Full Stack Developer",
+      "featured": false,
+      "description": "Developed an enterprise Net Promoter Score (NPS) Survey Platform to collect customer feedback, measure satisfaction, and provide actionable insights through real-time analytics and reporting.",
+      "contributions": [
+        "Developed scalable backend modules using Yii2 for survey management, questionnaires, response collection, customer segmentation, and campaign management.",
+        "Built secure REST APIs for survey distribution, response processing, and third-party integrations.",
+        "Implemented RBAC, automated email/SMS invitations, reminders, dashboards, and analytical reports.",
+        "Optimized MySQL queries and reporting modules to efficiently process and analyze large volumes of survey responses."
+      ],
+      "skills": ["Yii2", "PHP", "MySQL", "REST APIs", "RBAC", "Analytics", "Email/SMS"],
+      "tags": ["Analytics", "Survey", "Enterprise"]
+    },
+    {
+      "id": "pms",
+      "title": "Performance Management System",
+      "subtitle": "Enterprise HR Tool",
+      "company": "QDegrees Services",
+      "client": "Internal / Enterprise",
+      "period": "Jan 2022 – Dec 2022",
+      "role": "Full Stack Developer",
+      "featured": false,
+      "description": "Developed an enterprise Performance Management System (PMS) to streamline employee performance reviews, goal tracking, KPI management, and appraisal workflows.",
+      "contributions": [
+        "Developed scalable REST APIs and backend modules using Yii2 for employee performance reviews, goal setting, KPIs, appraisals, feedback, and approval workflows.",
+        "Implemented RBAC, configurable review cycles, notifications, dashboards, and reporting modules.",
+        "Built performance analytics and reporting features to help management track employee progress and organizational performance.",
+        "Optimized database queries and application performance to ensure fast and reliable access to performance data."
+      ],
+      "skills": ["Yii2", "PHP", "MySQL", "REST APIs", "RBAC", "Workflow Automation"],
+      "tags": ["HRMS", "Enterprise", "Workflow"]
+    },
+    {
+      "id": "aha-social",
+      "title": "AHA Social Media Platform",
+      "subtitle": "Real-time Engagement App",
+      "company": "QDegrees Services",
+      "client": "Greece Client",
+      "period": "Feb 2022 – Jul 2022",
+      "role": "Full Stack Developer",
+      "featured": true,
+      "description": "Developed a scalable social media platform enabling users to create, share, and engage with multimedia content through real-time interactions.",
+      "contributions": [
+        "Developed scalable REST APIs and backend modules using Laravel for user management, posts, comments, reactions, notifications, and media handling.",
+        "Implemented real-time one-to-one and group chat using Pusher WebSockets, enabling instant messaging and live notifications.",
+        "Integrated AWS Rekognition Content Moderation API to automatically detect and block inappropriate images and videos before publishing.",
+        "Integrated ImageKit for image optimization, CDN delivery, and media transformation to improve loading performance.",
+        "Optimized MySQL queries, application performance, and API response times to support a growing user base."
+      ],
+      "skills": ["Laravel", "Vue.js", "MySQL", "Pusher", "AWS Rekognition", "ImageKit", "WebSockets", "REST APIs"],
+      "tags": ["Social Media", "Real-time", "International Client"]
+    },
+    {
+      "id": "collection-crm",
+      "title": "Collection CRM (NPA)",
+      "subtitle": "Loan Recovery & Collection Tool",
+      "company": "QDegrees Services",
+      "client": "Financial Services",
+      "period": "Jul 2020 – Mar 2021",
+      "role": "Full Stack Developer",
+      "featured": false,
+      "description": "Developed an enterprise Loan Recovery & Collection Management System for managing delinquent accounts, recovery operations, and field collections.",
+      "contributions": [
+        "Developed scalable REST APIs and backend modules using Laravel for customer management, loan accounts, payment tracking, recovery workflows, and case management.",
+        "Built modules for field agent assignment, collection visits, payment recording, follow-up scheduling, dispute handling, and MIS reporting.",
+        "Implemented RBAC, approval workflows, notifications, and audit logs to ensure secure and compliant operations.",
+        "Integrated third-party APIs for payment processing, SMS/email notifications, and customer communication."
+      ],
+      "skills": ["Laravel", "React", "MySQL", "REST APIs", "RBAC", "Workflow Automation"],
+      "tags": ["FinTech", "CRM", "Enterprise"]
+    },
+    {
+      "id": "meri-bazar",
+      "title": "Meri Bazar",
+      "subtitle": "E-commerce Platform",
+      "company": "HCI Infohub Pvt. Ltd.",
+      "client": "Retail / E-commerce",
+      "period": "Jan 2019 – May 2019",
+      "role": "Full Stack Developer",
+      "featured": false,
+      "description": "Developed a full-featured E-commerce Platform for web and Android, enabling customers to browse products, place orders, and make secure online payments.",
+      "contributions": [
+        "Developed backend modules using Core PHP for product catalog, categories, inventory, shopping cart, order management, customer accounts, and admin panel.",
+        "Integrated Razorpay and Paytm payment gateways for secure online transactions.",
+        "Designed and optimized MySQL database schemas and queries to improve application performance and reliability.",
+        "Built REST APIs to support the Android application and enable seamless communication between mobile and backend services."
+      ],
+      "skills": ["Core PHP", "JavaScript", "MySQL", "Java (Android)", "Razorpay", "Paytm", "REST APIs"],
+      "tags": ["E-commerce", "Mobile", "Payments"]
+    },
+    {
+      "id": "meri-shiksha",
+      "title": "Meri Shiksha",
+      "subtitle": "E-learning & Online Exam System",
+      "company": "HCI Infohub Pvt. Ltd.",
+      "client": "EdTech",
+      "period": "Oct 2018 – Nov 2018",
+      "role": "Full Stack Developer",
+      "featured": false,
+      "description": "Developed an online examination system for e-learning, enabling students to take exams and track results through web and Android platforms.",
+      "contributions": [
+        "Built backend modules using Core PHP for exam management, question banks, and result processing.",
+        "Developed REST APIs supporting the Android application.",
+        "Implemented user authentication, exam scheduling, and automated grading features."
+      ],
+      "skills": ["Core PHP", "MySQL", "Java (Android)", "JavaScript", "REST APIs"],
+      "tags": ["EdTech", "Mobile"]
+    },
+    {
+      "id": "job-portal",
+      "title": "Online Job Portal",
+      "subtitle": "Recruitment Platform",
+      "company": "HCI Infohub Pvt. Ltd.",
+      "client": "HR / Recruitment",
+      "period": "Jul 2018 – Aug 2018",
+      "role": "Full Stack Developer",
+      "featured": false,
+      "description": "Developed an online job portal connecting employers and job seekers with profile management, job listings, and application tracking.",
+      "contributions": [
+        "Built core PHP backend for job listings, candidate profiles, and application management.",
+        "Designed MySQL database schema for efficient search and filtering.",
+        "Implemented user registration, job posting, and application workflow features."
+      ],
+      "skills": ["Core PHP", "MySQL", "JavaScript", "HTML/CSS"],
+      "tags": ["Portal", "Recruitment"]
+    }
+  ]
+}

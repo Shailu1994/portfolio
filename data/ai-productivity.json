@@ -1,0 +1,21 @@
+{
+  "title": "AI & Developer Productivity",
+  "items": [
+    {
+      "title": "Automated Quality Assurance",
+      "description": "Used Cursor AI and GitHub Copilot for preliminary PR reviews, cutting manual review time by 30% while holding strict PSR-12 standards."
+    },
+    {
+      "title": "Technical Debt Mitigation",
+      "description": "Used LLMs to identify and refactor code smells and optimize time complexity in legacy PHP modules."
+    },
+    {
+      "title": "Documentation Automation",
+      "description": "Used AI to generate Swagger API documentation directly from controller logic, speeding up the API lifecycle."
+    },
+    {
+      "title": "Prompt Engineering Leadership",
+      "description": "Mentored the engineering team on prompt engineering techniques to improve code-generation accuracy and shorten debugging cycles."
+    }
+  ]
+}
